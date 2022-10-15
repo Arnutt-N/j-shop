@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>J-Shop เสื้อทำงาน เสื้อผ้าแฟชั่น</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1657560417-RyrXrnJm" })
+            if (liff.isLoggedIn()) {
+              // Login แล้วจ้า
+            } else {
+              liff.login()
+            }
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    altText: "Flex Message",
+                    contents:
+                    {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/NaXSe54.png",
+                "size": "full",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "J-Shop เสื้อทำงาน เสื้อผ้าแฟชั่น",
+                    "size": "md",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "12px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "กดสั่งซื้อ",
+                  "uri": "https://m.me/jShopClothsFashion"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1657560417-RyrXrnJm"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/4zezIRT.png",
+                "size": "full",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "J-Shop เสื้อทำงาน เสื้อผ้าแฟชั่น",
+                    "size": "md",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "12px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "กดสั่งซื้อ",
+                  "uri": "https://m.me/jShopClothsFashion"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1657560417-RyrXrnJm"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/Rcc690o.png",
+                "size": "full",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "J-Shop เสื้อทำงาน เสื้อผ้าแฟชั่น",
+                    "size": "md",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "12px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "กดสั่งซื้อ",
+                  "uri": "https://m.me/jShopClothsFashion"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1657560417-RyrXrnJm"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/wKHNdgm.png",
+                "size": "full",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "J-Shop เสื้อทำงาน เสื้อผ้าแฟชั่น",
+                    "size": "md",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "12px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "กดสั่งซื้อ",
+                  "uri": "https://m.me/jShopClothsFashion"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1657560417-RyrXrnJm"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/bSBF1at.jpg",
+                "size": "full",
+                "aspectRatio": "1080:820",
+                "aspectMode": "cover"
+              }
+            ],
+            "offsetBottom": "0px"
+          }
+        ],
+        "paddingBottom": "12px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/XBtu0MY.png",
+                "size": "full",
+                "aspectRatio": "851:315",
+                "aspectMode": "cover"
+              }
+            ],
+            "cornerRadius": "md",
+            "action": {
+              "type": "uri",
+              "label": "J-Shop",
+              "uri": "https://www.facebook.com/100758205309044/posts/pfbid04vWx8kTjvpdxMsJU6Bxbjr2YL6MHZsPnyB9fuA8vsdBNLM9GBgPVpNKFMvJQT1Yxl/"
+            }
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "กดสั่งซื้อ",
+                  "uri": "https://m.me/jShopClothsFashion"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1657560417-RyrXrnJm"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "12px",
+        "paddingTop": "0px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    }
+  ]
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>
